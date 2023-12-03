@@ -20,6 +20,7 @@ const Day = struct {
 const days = [_]Day {
     Day.create(@import("day1.zig")),
     Day.create(@import("day2.zig")),
+    Day.create(@import("day3.zig")),
 };
 
 pub fn main() !void {
