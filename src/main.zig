@@ -35,6 +35,7 @@ const days = [_]Day {
     Day.create(@import("day15.zig")),
     Day.create(@import("day16.zig")),
     Day.create(@import("day17.zig")),
+    Day.create(@import("day18.zig")),
 };
 
 pub fn main() !void {
